@@ -43,6 +43,9 @@ class Gradient {
       if (canvas.height > 2000) {
         this.y = h;
       }
+      if (this.y > h + 2100) {
+        this.y = h;
+      }
     }
     
     draw() {
