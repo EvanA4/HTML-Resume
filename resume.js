@@ -104,4 +104,5 @@ card5.addEventListener("click", function (e) {
   card5.classList.toggle('is-flipped');
 });
 
-setTimeout(changeHeight, 200);
+const parallax = document.querySelector(".parallax");
+parallax.addEventListener("onmouseleave", changeHeight);
