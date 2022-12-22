@@ -104,4 +104,4 @@ card5.addEventListener("click", function (e) {
   card5.classList.toggle('is-flipped');
 });
 
-setTimeout(changeHeight, 500);
+setTimeout(changeHeight, 200);
