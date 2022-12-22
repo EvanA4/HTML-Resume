@@ -40,10 +40,8 @@ class Gradient {
     }
 
     change(h) {
-      if (canvas.height > 2000) {
-        this.y = h;
-      }
-      if (this.y > h + 2100) {
+      if (this.y > 4.6*h) {
+        console.log(this.y + " " + h);
         this.y = h;
       }
     }
@@ -65,7 +63,7 @@ class Gradient {
         else {
             this.t += .005;
         }
-        this.dy = 5 * Math.sin(this.t);
+        this.dy = .00625 * canvas.height * Math.sin(this.t);
         this.y += this.dy;
 
         if (this.y < canvas.height) {
