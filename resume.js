@@ -40,7 +40,9 @@ class Gradient {
     }
 
     change(h) {
-      this.y = h;
+      if (this.y < 1500) {
+        this.y = h;
+      }
     }
     
     draw() {
