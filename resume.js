@@ -40,7 +40,7 @@ class Gradient {
     }
 
     change(h) {
-      if (this.y < 1500) {
+      if (this.y > h + 2100) {
         this.y = h;
       }
     }
