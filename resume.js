@@ -105,6 +105,7 @@ card5.addEventListener("click", function (e) {
   card5.classList.toggle('is-flipped');
 });
 
-window.addEventListener("mouseover", function (e) {
+const hlisten = document.querySelector("body");
+hlisten.addEventListener("mouseover", function (e) {
   changeHeight();
 });
