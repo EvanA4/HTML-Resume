@@ -1,12 +1,15 @@
+expand.style.display = "none";
+
 function reveal() {
   var expand = document.getElementById("expand");
   var btn = document.getElementById("btn");
   var acc = document.getElementById("acchead");
 
-  if (expand.style.display === "none") {
+  if (expand.style.display == "none") {
     btn.innerHTML = "Read less";
     expand.style.display = "grid";
     acc.style.borderColor = "transparent";
+    console.log("reveal");
   }
   else {
     btn.innerHTML = "Read more";
