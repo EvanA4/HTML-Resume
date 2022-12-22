@@ -25,6 +25,7 @@ canvas.height = holder.offsetHeight + 100;
 function changeHeight() {
   canvas.height = holder.offsetHeight + 100;
   canvas.width = window.innerWidth;
+  console.log("changing height");
 }
 
 window.onresize = changeHeight;
@@ -104,5 +105,4 @@ card5.addEventListener("click", function (e) {
   card5.classList.toggle('is-flipped');
 });
 
-const parallax = document.querySelector(".parallax");
-parallax.addEventListener("onmouseleave", changeHeight);
+window.addEventListener("onmouseleave", changeHeight);
