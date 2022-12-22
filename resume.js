@@ -27,7 +27,6 @@ function changeHeight() {
   gradient.change(canvas.height);
 
   canvas.width = window.innerWidth;
-  console.log("changing height");
 }
 
 window.onresize = changeHeight;
@@ -41,7 +40,6 @@ class Gradient {
 
     change(h) {
       if (this.y > 4.6*h) {
-        console.log(this.y + " " + h);
         this.y = h;
       }
     }
