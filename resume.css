@@ -2,14 +2,7 @@ body {
     margin: 0px;
     background-color: black;
 }
-/*
-@media screen and (max-width: 1000px){
-    html {
-        width: 1000px;
-        overflow: auto;
-    }
-}
-*/
+
 .parallax {
     height: 100vh;
     overflow-y: auto;
