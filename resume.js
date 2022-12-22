@@ -24,6 +24,8 @@ canvas.height = holder.offsetHeight + 100;
 
 function changeHeight() {
   canvas.height = holder.offsetHeight + 100;
+  gradient.change(canvas.height);
+
   canvas.width = window.innerWidth;
   console.log("changing height");
 }
@@ -35,6 +37,10 @@ class Gradient {
         this.y = canvas.height;
         this.dy = 0;
         this.t = 0;
+    }
+
+    change(h) {
+      this.y = h;
     }
     
     draw() {
