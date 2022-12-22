@@ -230,6 +230,7 @@ body {
 }
 
 #cardholder {
+    height: fit-content;
     display: flex;
     flex-wrap: wrap;
 
