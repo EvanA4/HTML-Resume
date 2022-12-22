@@ -68,7 +68,6 @@ function myFunction() {
     brush.clearRect(0, 0, canvas.width, canvas.height);
     gradient.update();
     gradient.draw();
-    changeHeight();
 }
 
 var gradient = new Gradient();
@@ -104,3 +103,5 @@ const card5 = document.querySelector(".card__inner5");
 card5.addEventListener("click", function (e) {
   card5.classList.toggle('is-flipped');
 });
+
+changeHeight();
