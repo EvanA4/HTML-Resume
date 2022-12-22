@@ -68,6 +68,7 @@ function myFunction() {
     brush.clearRect(0, 0, canvas.width, canvas.height);
     gradient.update();
     gradient.draw();
+    changeHeight();
 }
 
 var gradient = new Gradient();
