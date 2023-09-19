@@ -146,5 +146,5 @@ img {
     .nav {display: none;}
     #quote {font-size: 30px;} 
     em {font-size: 46px;}
-
+    .projects .item p {font-size: 22px;}
 }
