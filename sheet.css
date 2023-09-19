@@ -107,9 +107,9 @@ img {
 
 .projects {
     background-color: rgb(32, 32, 41);
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-top: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 35px;
 }
 
 .projects .item {
@@ -247,7 +247,7 @@ img {
 }
 
 /* For testing phones */
-/* @media only screen 
+@media only screen 
   and (min-device-width: 320px) 
   and (max-device-width: 480px) {
     .projects .item p {font-size: 30px;}
@@ -263,4 +263,4 @@ img {
     .links a span {
         font-size: 30px;
     }
-} */
+}
