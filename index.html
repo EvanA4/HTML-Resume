@@ -1,153 +1,124 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Evan's Resume</title>
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="resume.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evan Abbott</title>
+    <link rel="icon" type="image/x-icon" href="w_pawn1.png">
+    <link rel="stylesheet" href="sheet.css">
 </head>
 <body>
-    <div class="parallax">
-        <div class="header">
-            <div class="links">
-                <a id="git" href="https://github.com/EvanA4">GitHub</a>
-                <a id="linked" href="https://www.linkedin.com/in/evan-abbott-667167214/">LinkedIn</a>
-            </div>
-            <span><b>Evan Abbott</b></span>
+    <div class="mainimage">
+        <div class="links">
+            <a id="git" href="https://github.com/EvanA4"><span>GitHub</span></a>
+            <a id="linked" href="https://www.linkedin.com/in/evan-abbott-667167214/"><span>LinkedIn</span></a>
         </div>
-        <div class="portaits">
-            <div class="column">
-                <img src="Snowy.jpg" alt="Snow" style="width:100%">
-            </div>
-            <div class="column">
-                <img src="Rocky.jpg" alt="Rock" style="width:100%">
-            </div>
-            <div class="column">
-                <img src="Smokey.JPEG" alt="Smoke" style="width:100%">
-            </div>
+        <img src="portrait.jpg" alt="Evan's Resume Portrait">
+        <span id="quote">Hi, I'm<br><em>Evan Abbott</em></span>
+    </div>
+    <div class="document">
+        <!-- Here's where the nav is  -------------------------------------------------------------------------------------------------->
+        <div class="nav"> 
+            <ul>
+                <li><a href="#New Website"><span>New Website</span></a></li>
+                <li><a href="#About Me"><span>About Me</span></a></li>
+                <li><a href="#Education"><span>Education</span></a></li>
+                <li><a href="#ORNL"><span>ORNL</span></a></li>
+                <li><a href="#Unpaid Internship"><span>Unpaid Internship</span></a></li>
+                <li><a href="#Private Projects"><span>Private Projects</span></a></li>
+                <li><a href="#Future Plans"><span>Future Plans</span></a></li>
+            </ul>
         </div>
-        <div id="welcome">
-            <h1 id="welcometext">Welcome</h1>
-        </div>
-        <div class="up">
-            <div class="who">
-                <p>Who am I?</p>
-                <button onclick="reveal()" id="btn">Read more</button>
+        <div class="projects">
+            <!-- Here's where the projects are  ---------------------------------------------------------------------------------------->
+            <div class="item" id="New Website">
+                <h1>Q: What happened to the previous website?</h1>
+                <p>A: Well... the last website had a lot of problems with it. Although it had some interesting JavaScript,
+                    it felt clunky and had bugs which killed the aesthetic. I realized I thought it looked pretty ugly, too.
+                    There was also very little reactivity to the website size, meaning phone users were looking at a horrific
+                    website when held verticle. The design was not expandable at all, either. Here, I can easily grow my site
+                    as I complete more projects.</p>
             </div>
-            <div id="expand">
-                <p>I am a calm, shy, and yet curious introvert who loves learning. Some say I have a dry but witty sense of humor. I have always cherished creativity, as I feel this is a
-                    very important to problem solving. Problem solving and strategizing is one of my hobbies, and I would describe myself as an analytical person. Actually, I was origionally planning on
-                    becoming a clinical psychologist in high school.</p>
-                <p>When I have free time, I usually try to play games online with my friends, work on coding projects, or create digital art. I try to always have a creative outlet handy,
-                    whether this sketching on a worksheet from one of my classes, or using a digital art software installed on my computer (I have found Medibang Paint Pro is good and
-                    free). Occasionally, I like to meet with friends in person, go on hiking trips in the mountains, or even eat out.</p>
-                <p>I love drawing and any form of it. Recently, I have even enjoyed writing short stories; my style is largely inspired by J. R. R. Tolkien. Obviously, I love coding
-                    and learning how things work. I have always loved seeing tiny details come together to create something greater than the sum of its parts, the heart of
-                    engineering. Lately, I have been dabbling in chess (still terrible, mind you). My long-time favorite food has been spaghetti, and my favorite animal is the Green
-                    Sea Turtle.</p>
+            <div class="item" id="About Me">
+                <h1>About Me</h1>
+                <p>I'm a sophomore computer science student at the University of Tennessee (Knoxville). Here's how I describe myself:</p>
+                <div class="bullets">
+                    <ul>
+                        <li><p>Relaxed</p></li>
+                        <li><p>Witty</p></li>
+                        <li><p>Minimalist</p></li>
+                    </ul>
+                    <ul>
+                        <li><p>Intelligent</p></li>
+                        <li><p>Skeptical</p></li>
+                        <li><p>Determined</p></li>
+                    </ul>
+                </div>
             </div>
-            <div id="acchead">
-                <p>My Accomplishments</p>
+            <div class="item" id="Education">
+                <h1>Academics</h1>
+                <p>My high school unweighted and weighted GPA was 3.90 and 4.51, respectively. I was at least in the top
+                    ten percent of my high school. I have recieved A's in classes
+                    like AP Physics C: Electricity and Magnetism, AP Physics C: Mechanics, AP Biology, AP Chemistry, AP Calculus
+                    AB, and AP Calculus BC. Other than two classes at Farragut High School, I have only received A's.</p>
+                <p>Now that I am in college, I am a part of the Chancellor's Honors and Cook Grand Challenge Honors Program
+                    at UTK. I've gotten A's in CS101, CS102, EF157, and EF158. I feel quite comfortable with the pace of my current
+                    classes, as I practice programming outside of class a bit.</p>
             </div>
-            <div class="row1">
-                <p>My high school unweighted and weighted GPA was 3.90 and 4.51, respectively. I am at least in the top ten percent of my high school. I have long been fascinated with the STEM
-                    ﬁeld, acquiring A's in classes like AP Physics C: Electricity and Magnetism, AP Physics C: Mechanics, AP Biology, AP Chemistry, AP Calculus AB, and AP Calculus
-                    BC. Other than two classes at Farragut High School, I have only received A's. Now that I am in college, I am a part of the Chancellor's Honors and Cook Grand Challenge Honors Program at UTK.
-                    <br><br><span style="margin-left:2em"></span>I was a member of the National Honors Society of my high school for my sophomore, junior, and senior year,
-                    raking in over 60 hours of community service (not including serving in Scouts of America).</p>
-                <div id="imgcontainer1"></div>
+            <div class="item" id="ORNL">
+                <h1>SULI Internship at ORNL</h1>
+                <p>Albiet a little intimidating at first, I learned quite a bit here (summer of 2023). Here's some of the things I learned:</p>
+                <div class="bullets">
+                    <ul>
+                        <li><p>Intermediate C++ and Python</p></li>
+                        <li><p>Created a point cloud object recognition pipeline</p></li>
+                        <li><p>Learned how to give short and sweet updates at meetings</p></li>
+                    </ul>
+                    <ul>
+                        <li><p>Practiced GitHub and GitLab</p></li>
+                        <li><p>Coded as a teammember</p></li>
+                        <li><p>Reviewed machine learning and artificial intelligence</p></li>
+                    </ul>
+                </div>
             </div>
-            <div class="row2">
-                <div id="imgcontainer2"></div>
-                <p>I served as a general team member at McDonalds for the month of July 2021, and it was a fast-paced work environment taking 40 hours a week. Moreover, I am
-                    currently working as a host in Chili's and started in July 2022. As a result, I've learned teamwork and communication skills, and have become familiar to
-                    the professional work environment.
+            <div class="item" id="Unpaid Internship">
+                <h1>Unpaid Internship</h1>
+                <p>My first ever experience with GitHub. Dr. Mongi Abidi was willing to let me play around with his graduate
+                    student's facial recognition code (summer of 2022). I learned how to create GUIs with PyQT Creator, but
+                    this was also the time I became fascinated with machine learning. I learned basic Python, as well.
                 </p>
             </div>
-            <div class="row1">
-                <p>I was a boy scout for 6 years of my childhood, and I have the Eagle Scout badge to show for it. I was constantly learning new things and challening myself
-                    to become smarter everyday. I met some of my closest friends there.</p>
-                <div id="imgcontainer3"></div>
+            <div class="item" id="Private Projects">
+                <h1>My Own Projects</h1>
+                <p>Here's a description of some projects I'm proud of because they were complicated, unique, or both:</p>
+                <div class="bullets">
+                    <ul>
+                        <li><p>A Reduced Row Echelon Form (RREF) calculator for any matrix. This used basic C++ programming, but the logic itself
+                            was rather complicated!
+                        </p></li>
+                        <li><p>Two resume websites. These do take some time to make, although this one was simpler and quicker to produce. No JavaScript
+                            required!
+                        </p></li>
+                    </ul>
+                    <ul>
+                        <li><p>Simulating a randomly selected stock portfolio. A bot would occasionally buy a stock with virtual money. Matplotlib was
+                            used to display the results over time. It failed horribly, but that's probably because I didn't use a goldfish.
+                        </p></li>
+                        <li><p>Animal Crossing: New Horizions turnip command terminal. This terminal allowed one to store turnip prices in long and
+                            short-term storage. The short term data could be compared with the long term data using Matplotlib, helping one determine
+                            when to sell their turnips. It's niche, but I loved coding it and may even upload it to GitHub.
+                        </p></li>
+                    </ul>
+                </div>
             </div>
-        </div>
-        <div class="bottom">
-            <canvas></canvas>
-            <div id="cardholder">
-                <div class="card">
-                    <div class="card__inner1">
-                        <div class="card__face card__face--front">
-                            <img src="Python.png" alt="Python" style="width:100%">
-                        </div>
-                        <div class="card__face card__face--back">
-                            <h2>Python</h2>
-                            <p><span style="margin-left:2em"></span>Python was my first ever language and was what hooked me into computer science to begin with. I have learned
-                                up to polymorphism and flow-control in this language. I have coded 2048 in my spare time. I also have experience in PyQt, NumPy, and Matplotlib.
-                                <br><br><span style="margin-left:2em"></span>I had a research opportunity in the summer of 2022 (before I was a freshmen in college) which analyzed
-                                the accuracy of a facial detection AI on increasingly distorted images. I helped design the GUI of the project using PyQt (this included a default
-                                button, error windows, and the occasional touch-up.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card__inner2">
-                        <div class="card__face card__face--front">
-                            <img src="Cpp.png" alt="Cpp" style="width:100%">
-                        </div>
-                        <div class="card__face card__face--back">
-                            <h2>C++</h2>
-                            <p><span style="margin-left:2em"></span>C++ is my most familiar language at the moment. Just like Python and Java, I understand everything up to
-                                polymorphism and flow control; however, I also have experience creating data structures and algorithms. This includes unordered maps, linked
-                                lists, sets, binary trees, binary search trees, and more. I coded a program which would take any sized matrix from the user and convert it
-                                into reduced row echelon form. It's actually on my GitHub!</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card__inner3">
-                        <div class="card__face card__face--front">
-                            <img src="Java.png" alt="Java" style="width:100%">
-                        </div>
-                        <div class="card__face card__face--back">
-                            <h2>Java</h2>
-                            <p><span style="margin-left:2em"></span>Java was my second programming language, and I can write polymorphic code using flow control. I have actually
-                                taken two classes on this programming language. In my high school class, we wrote our own video games using an obscure coding platform known as
-                                GreenFoot. It was a 2-dimensional side-scroller.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card__inner4">
-                        <div class="card__face card__face--front">
-                            <img src="Lua.png" alt="Lua" style="width:100%">
-                        </div>
-                        <div class="card__face card__face--back">
-                            <h2>Lua</h2>
-                            <p><span style="margin-left:2em"></span>Lua is my weakest language, and I have not had the time to learn much about class syntax, not to mention
-                                inheritance and polymorphism. Regardless, I use Lua to play a modded version of Minecraft called ComputerCraft: Tweaked; it involves programmable
-                                computers! I highly recommend it.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card__inner5">
-                        <div class="card__face card__face--front">
-                            <img src="Html.png" alt="Html" style="width:100%">
-                        </div>
-                        <div class="card__face card__face--back">
-                            <h2>HTML, CSS, and JavaScript</h2>
-                            <p><span style="margin-left:2em"></span>Web development has been very fun to learn, and these languages are just as familiar to me as C++. If you are
-                                hoping to see my most technical web development project, look no further! This website took me a while to code, and I have learned a lot in the
-                                process. I am most proud of the parallax and breathing effect of the gradient behind these cards.</p>
-                        </div>
-                    </div>
-                </div>
+            <div class="item" id="Future Plans">
+                <h1>Future Plans</h1>
+                <p>I hope to achieve a 5-year master's degree in computer science and persue artificial intelligence. I've found web development pretty 
+                    cool, too, so I'm happy doing either. If I do not recieve other job offers before this upcoming summer, I'll probably be heading
+                    back to ORNL to continue working on point cloud object recognition.
+                </p>
             </div>
         </div>
     </div>
 </body>
-<script src="resume.js"></script>
 </html>
-
-<!--
-Long: https://htmlpreview.github.io/?https://github.com/EvanA4/HTML-Resume/blob/main/index.html
-Short: https://tinyurl.com/EvanAbbott
--->
