@@ -1,3 +1,5 @@
+#p2 {display: none;}
+
 /* Default dark mode */
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -155,6 +157,15 @@ img {
   and (-webkit-min-device-pixel-ratio: 2) {
     .projects .item p {font-size: 30px;}
     h1 {font-size: 35px;}
+    #p1 {display: none;}
+    #p2 {display: block;}
+    .links a {
+        height: 80px;
+        width: 160px;
+    }
+    .links a span {
+        font-size: 30px;
+    }
 }
 
 @media screen 
@@ -163,6 +174,15 @@ img {
   and (-webkit-device-pixel-ratio: 2) {
     .projects .item p {font-size: 30px;}
     h1 {font-size: 35px;}
+    #p1 {display: none;}
+    #p2 {display: block;}
+    .links a {
+        height: 80px;
+        width: 160px;
+    }
+    .links a span {
+        font-size: 30px;
+    }
 }
 
 @media screen 
@@ -171,6 +191,15 @@ img {
   and (-webkit-device-pixel-ratio: 3) {
     .projects .item p {font-size: 30px;}
     h1 {font-size: 35px;}
+    #p1 {display: none;}
+    #p2 {display: block;}
+    .links a {
+        height: 80px;
+        width: 160px;
+    }
+    .links a span {
+        font-size: 30px;
+    }
 }
 
 @media screen 
@@ -179,6 +208,15 @@ img {
   and (-webkit-device-pixel-ratio: 3) {
     .projects .item p {font-size: 30px;}
     h1 {font-size: 35px;}
+    #p1 {display: none;}
+    #p2 {display: block;}
+    .links a {
+        height: 80px;
+        width: 160px;
+    }
+    .links a span {
+        font-size: 30px;
+    }
 }
 
 @media screen 
@@ -187,4 +225,13 @@ img {
   and (-webkit-device-pixel-ratio: 2) {
     .projects .item p {font-size: 30px;}
     h1 {font-size: 35px;}
+    #p1 {display: none;}
+    #p2 {display: block;}
+    .links a {
+        height: 80px;
+        width: 160px;
+    }
+    .links a span {
+        font-size: 30px;
+    }
 }
