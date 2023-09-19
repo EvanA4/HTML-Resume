@@ -107,15 +107,15 @@ img {
 
 .projects {
     background-color: rgb(32, 32, 41);
-    padding-left: 3vw;
-    padding-right: 3vw;
-    padding-top: 1.5vw;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
 }
 
 .projects .item {
-    padding: 2.2vw;
-    border-radius: .8vw;
-    margin-bottom: 4vw;
+    padding: 33px;
+    border-radius: 10px;
+    margin-bottom: 30px;
     background-color: rgb(48, 50, 56);
 }
 
@@ -136,7 +136,7 @@ img {
 /* Media queries for viewport */
 @media screen and (max-width: 1204px) {
     .bullets {
-        grid-template-columns: 100%;
+        grid-template-columns: auto;
         column-gap: 0;
     }
 }
@@ -156,6 +156,8 @@ img {
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2) {
     .projects .item p {font-size: 30px;}
+    .projects .item {margin-bottom: 40px;}
+    .projects {margin-top: 20px;}
     h1 {font-size: 35px;}
     #p1 {display: none;}
     #p2 {display: block;}
@@ -173,6 +175,8 @@ img {
   and (device-height: 640px) 
   and (-webkit-device-pixel-ratio: 2) {
     .projects .item p {font-size: 30px;}
+    .projects .item {margin-bottom: 40px;}
+    .projects {margin-top: 20px;}
     h1 {font-size: 35px;}
     #p1 {display: none;}
     #p2 {display: block;}
@@ -190,6 +194,8 @@ img {
   and (device-height: 640px) 
   and (-webkit-device-pixel-ratio: 3) {
     .projects .item p {font-size: 30px;}
+    .projects .item {margin-bottom: 40px;}
+    .projects {margin-top: 20px;}
     h1 {font-size: 35px;}
     #p1 {display: none;}
     #p2 {display: block;}
@@ -207,6 +213,8 @@ img {
   and (device-height: 640px) 
   and (-webkit-device-pixel-ratio: 3) {
     .projects .item p {font-size: 30px;}
+    .projects .item {margin-bottom: 40px;}
+    .projects {margin-top: 20px;}
     h1 {font-size: 35px;}
     #p1 {display: none;}
     #p2 {display: block;}
@@ -224,6 +232,8 @@ img {
   and (device-height: 592px) 
   and (-webkit-device-pixel-ratio: 2) {
     .projects .item p {font-size: 30px;}
+    .projects .item {margin-bottom: 40px;}
+    .projects {margin-top: 20px;}
     h1 {font-size: 35px;}
     #p1 {display: none;}
     #p2 {display: block;}
@@ -235,3 +245,22 @@ img {
         font-size: 30px;
     }
 }
+
+/* For testing phones */
+/* @media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px) {
+    .projects .item p {font-size: 30px;}
+    .projects .item {margin-bottom: 40px;}
+    .projects {margin-top: 20px;}
+    h1 {font-size: 35px;}
+    #p1 {display: none;}
+    #p2 {display: block;}
+    .links a {
+        height: 80px;
+        width: 160px;
+    }
+    .links a span {
+        font-size: 30px;
+    }
+} */
