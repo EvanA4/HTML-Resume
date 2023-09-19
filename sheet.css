@@ -146,5 +146,45 @@ img {
     .nav {display: none;}
     #quote {font-size: 30px;} 
     em {font-size: 46px;}
-    .projects .item p {font-size: 22px;}
+}
+
+/* Prepare for too many phone checks */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .projects .item p {font-size: 30px;}
+    h1 {font-size: 35px;}
+}
+
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) {
+    .projects .item p {font-size: 30px;}
+    h1 {font-size: 35px;}
+}
+
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+    .projects .item p {font-size: 30px;}
+    h1 {font-size: 35px;}
+}
+
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+    .projects .item p {font-size: 30px;}
+    h1 {font-size: 35px;}
+}
+
+@media screen 
+  and (device-width: 384px) 
+  and (device-height: 592px) 
+  and (-webkit-device-pixel-ratio: 2) {
+    .projects .item p {font-size: 30px;}
+    h1 {font-size: 35px;}
 }
